@@ -94,6 +94,10 @@ body {
 #gallery {
 	/*	min-height: 100vh; */
 }
+h2.title {
+	padding-bottom: 0px;
+}
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -217,6 +221,10 @@ body {
 .form-container {
 	flex : 2;
 
+}
+
+.form-container p{
+	margin-bottom: 5px;
 }
 form {
 	display: flex;

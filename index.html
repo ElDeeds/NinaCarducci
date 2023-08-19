@@ -8,7 +8,7 @@
     content="Bienvenue sur le Portfolio de Nina Carducci ! Découvrez ses photographies de mariage, couple, portraits, concerts, et musiciens !">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Icône -->
-    <link rel="icon" type="image/x-icon" href="./assets/images/icon/camera.jpg">
+    <link rel="icon" type="image/x-icon" href="./assets/images/icon/cameraIcon.jpg">
 	<!-- Librairies, CSS, Fonts -->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
@@ -24,7 +24,7 @@
 	<!-- Open Graph meta pour Facebook -->
 	<meta property="og:title" content="Nina Carducci" />
 	<meta property="og:url" content="nina-carducci.github.io" />
-	<meta property="og:image" content="./assets/images/desktop/nina.webp" />
+	<meta property="og:image" content="./assets/images/nina.webp" />
 	<meta property="og:description" content="Bienvenue sur le Portfolio de Nina Carducci ! Découvrez ses photographies de mariage, couple, portraits, concerts, et musiciens !" />
 	<meta property="og:site_name" content="Nina Carducci" />
 	<meta property="og:type" content="website" />
@@ -39,7 +39,7 @@
 		  "@context": "https://schema.org/",
 		  "@type": "LocalBusiness",
 		  "name": "Nina Carducci",
-		  "image": "./assets/images/desktop/nina.webp",
+		  "image": "./assets/images/nina.webp",
 		  "openingHours": "Mo-Fr 10:00-19:00",
 		  "telephone": "0556677889",
 		  "address": {
@@ -82,11 +82,11 @@
 					<div class="carousel-item active">
 						<picture>
 							<source 
-									srcset="./assets/images/desktop/slider/NicholasGreen/nicholas-green-1920.webp 1920w,
-									./assets/images/desktop/slider/NicholasGreen/nicholas-green-1800.webp 1800w,
-									./assets/images/desktop/slider/NicholasGreen/nicholas-green-1290.webp 1290w,
-									./assets/images/desktop/slider/NicholasGreen/nicholas-green-300.webp 300w,">
-							<img src="./assets/images/desktop/slider/NicholasGreen/nicholas-green-2048.webp 2048w" 
+								srcset="./assets/images/slider/NicholasGreen/nicholas-green-1920.webp 1920w,
+								./assets/images/slider/NicholasGreen/nicholas-green-1800.webp 1800w,
+								./assets/images/slider/NicholasGreen/nicholas-green-1290.webp 1290w,
+								./assets/images/slider/NicholasGreen/nicholas-green-300.webp 300w,">
+							<img src="./assets/images/slider/NicholasGreen/nicholas-green-2048.webp 2048w" 
 								 alt="Public d'un concert" width="2048" height="947"
 								 sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
 								 style="height: auto;"
@@ -96,11 +96,11 @@
 					<div class="carousel-item">
 						<picture>
 							<source 
-									srcset="./assets/images/desktop/slider/RyojiIwata/ryoji-iwata-1920.webp 1920w,
-									./assets/images/desktop/slider/RyojiIwata/ryoji-iwata-1800.webp 1800w,
-									./assets/images/desktop/slider/RyojiIwata/ryoji-iwata-1290.webp 1290w,
-									./assets/images/desktop/slider/RyojiIwata/ryoji-iwata-300.webp 300w"> 
-							<img src="./assets/images/desktop/slider/RyojiIwata/ryoji-iwata-2048.webp 2048w" 
+								srcset="./assets/images/slider/RyojiIwata/ryoji-iwata-1920.webp 1920w,
+								./assets/images/slider/RyojiIwata/ryoji-iwata-1800.webp 1800w,
+								./assets/images/slider/RyojiIwata/ryoji-iwata-1290.webp 1290w,
+								./assets/images/slider/RyojiIwata/ryoji-iwata-300.webp 300w"> 
+							<img src="./assets/images/slider/RyojiIwata/ryoji-iwata-2048.webp 2048w" 
 								 alt="Homme de dos qui traverse un passage piéton" width="2048" height="947"
 								 sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
 								 style="height: auto;"
@@ -110,11 +110,11 @@
 					<div class="carousel-item">
 						<picture>
 							<source 
-									srcset="./assets/images/desktop/slider/EdwardCisneros/edward-cisneros-1920.webp 1920w,
-									./assets/images/desktop/slider/EdwardCisneros/edward-cisneros-1800.webp 1800w,
-									./assets/images/desktop/slider/EdwardCisneros/edward-cisneros-1290.webp 1290w,
-									./assets/images/desktop/slider/EdwardCisneros/edward-cisneros-300.webp 300w">
-								<img src="./assets/images/desktop/slider/EdwardCisneros/edward-cisneros-2048.webp 2048w" 
+								srcset="./assets/images/slider/EdwardCisneros/edward-cisneros-1920.webp 1920w,
+								./assets/images/slider/EdwardCisneros/edward-cisneros-1800.webp 1800w,
+								./assets/images/slider/EdwardCisneros/edward-cisneros-1290.webp 1290w,
+								./assets/images/slider/EdwardCisneros/edward-cisneros-300.webp 300w">
+								<img src="./assets/images/slider/EdwardCisneros/edward-cisneros-2048.webp 2048w" 
 								 alt="Photo d'un couple de jeune mariés" width="2048" height="947"
 								 sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
 								 style="height: auto;"
@@ -137,9 +137,11 @@
 		<div id="about">
 			<div class="picture left">
 				<picture>
-					<source srcset="./assets/images/mobile/portrait/nina-portrait.webp">
-					<source srcset="./assets/images/mobile/paysage/nina-paysage.webp">
-					<img src="./assets/images/desktop/nina.webp" alt="Photo de Nina Carducci" width="555" height="450">
+					<source srcset="./assets/images/nina/nina-890.webp 890w,
+					./assets/images/nina/nina-560.webp 560w,
+					./assets/images/nina/nina-256.webp 256w">
+				
+					<img src="./assets/images/nina/nina-1120.webp 1120w" alt="Photo de Nina Carducci" width="1120" height="1117">
 				  </picture>
 			</div>
 			<div id="about-me">
@@ -153,15 +155,15 @@
 			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
-					<img data-gallery-tag="Concert" class="gallery-item" width="auto" height="auto" src="./assets/images/desktop/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Aaron Paul"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" width="auto" height="auto" src="./assets/images/desktop/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Ali Morsheldlou"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" width="auto" height="auto" src="./assets/images/desktop/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Jason Goodman"/>
-					<img data-gallery-tag="Mariages" class="gallery-item" width="auto" height="auto" src="./assets/images/desktop/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Hannah Busing"/>
-					<img data-gallery-tag="Portrait" class="gallery-item" width="auto" height="auto" src="./assets/images/desktop/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Ade Tunji"/>
-					<img data-gallery-tag="Mariages" class="gallery-item" width="auto" height="auto" src="./assets/images/desktop/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="jakob Owens"/>
-					<img data-gallery-tag="Portrait" class="gallery-item" width="auto" height="auto" src="./assets/images/desktop/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Nino Van"/>
-					<img data-gallery-tag="Concert" class="gallery-item" width="auto" height="auto" src="./assets/images/desktop/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Austin Neill"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" width="auto" height="auto" src="./assets/images/desktop/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Mateus Campos"/>
+					<img data-gallery-tag="Concert" class="gallery-item" width="auto" height="auto" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Aaron Paul"/>
+					<img data-gallery-tag="Entreprises" class="gallery-item" width="auto" height="auto" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Ali Morsheldlou"/>
+					<img data-gallery-tag="Entreprises" class="gallery-item" width="auto" height="auto" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Jason Goodman"/>
+					<img data-gallery-tag="Mariages" class="gallery-item" width="auto" height="auto" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Hannah Busing"/>
+					<img data-gallery-tag="Portrait" class="gallery-item" width="auto" height="auto" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Ade Tunji"/>
+					<img data-gallery-tag="Mariages" class="gallery-item" width="auto" height="auto" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="jakob Owens"/>
+					<img data-gallery-tag="Portrait" class="gallery-item" width="auto" height="auto" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Nino Van"/>
+					<img data-gallery-tag="Concert" class="gallery-item" width="auto" height="auto" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Austin Neill"/>
+					<img data-gallery-tag="Entreprises" class="gallery-item" width="auto" height="auto" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Mateus Campos"/>
 				</div>
 			</div>
 			<div class="quote">
@@ -222,7 +224,8 @@
 				<div class="form-container">
 					<h2>Une question ?</h2> 
 					<h3>Une demande de devis ?</h3>
-					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+					<p> N’hésitez pas à m’écrire !</p>
+					<p>Je vous répondrais en moins de 24 heures.</p>
 					<form action="#" method="post">
 						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom">
@@ -235,9 +238,10 @@
 				</div>
 				<div class="picture right">
 					<picture>
-						<source srcset="./assets/images/mobile/portrait/camera-portrait.webp">
-						<source srcset="./assets/images/mobile/paysage/camera-paysage.webp">
-						<img src="./assets/images/desktop/camera.webp" alt="Photo d'un appareil photo" width="555vw" height="500vw">
+						<source srcset="./assets/images/camera/camera-419.webp 419w">
+						<img src="./assets/images/camera/camera-838.webp 838w" alt="Photo d'un appareil photo" 
+						width="838vw" height="836vw" 
+						style="height: auto;">
 					  </picture>
 				</div>
 			</div>
